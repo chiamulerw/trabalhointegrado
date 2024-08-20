@@ -22,7 +22,7 @@
 }
 *::selecion{
     background-color: var(--bege);
-    color: #fff;
+    color: var(--bege);
 }
 html{
     font-size: 62.5%;

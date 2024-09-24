@@ -61,20 +61,59 @@ nav{
 .ul li a{
     color: white;
 }
+nav .menuicon{
+    width: 30px;
+}
 .botao{
     border-style: none;
     padding: 10px 25px;
     color: white;
-    border-radius: 25px;
+    border-radius: 30px;
     cursor: pointer;
     background-color: #445128;
+    transition: 1s all;
+    box-shadow: var(--verde) (0, 0, 0, 0.24) 0px 3px 8px;
+}
+.botao:hover{
+    background-color: #283618;
+    transform: scale(1.1);
 }
 main .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 5px;
+}
+.imagem{
+    width: 95%;
+    padding-left: 200px;
 }
 .main-text{
-    lero
+    width: 100%;
+    color: white;
+    display: block;
+}
+.main-text h1{
+    font-size: 2.7rem;
+}
+.main-text h2{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.main-text div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.menuicon{
+    display: none;
+}
+
+@media (max-width: 960px){
+    .menuicon{
+        display: block;
+    }
+    .ul{
+        display: none;
+    }
 }

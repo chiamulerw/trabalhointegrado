@@ -157,6 +157,7 @@ main .container{
 .mapa .texto-mapa{
     width: 50%;
     padding-left: 60px;
+    font-weight: 600;
 }
 .mapa .texto-mapa h2{
     font-size: 2.5em;
@@ -164,6 +165,7 @@ main .container{
 .mapa .texto-mapa p{
     margin: 20px 0;
     color: var(--cinza-secundario);
+    line-height: 22px;
 }
 .container-catalogo{
     background-color: var(--verde-claro);
@@ -180,7 +182,7 @@ main .container{
 .container-catalogo .container p{
     margin: 13px 0;
     color: #414438;
-    font-weight: 500;
+    font-weight: 600;
 }
 footer{
     background-color: var(--verde-musgo);
@@ -218,14 +220,15 @@ footer .container .redes a{
     margin-bottom: 25px;
     gap: 20px;
     flex-wrap: wrap;
+    max-width: fit-content;
 }
 .cards{
-    
     flex-basis: 275px;
     background-color: white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px var(--cinza-principal);
+    flex-wrap: wrap;
 }
 .cards img{
     width: 100%;
